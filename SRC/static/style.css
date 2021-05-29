@@ -1,0 +1,46 @@
+/* https://github.com/L1ghtM4n */
+
+body {
+    background-color: #111111;
+}
+#container {
+    width: 100%;
+    text-align: center;
+}
+textarea {
+    min-height: 40%;
+    resize: vertical;
+}
+button {
+    font-size: xx-large;
+    height: 10% !important;
+}
+button, textarea {
+    width: 99%;
+    height: 5%;
+    margin: 0.5%;
+    padding: 20px;
+    margin-left: 1%;
+    color: whitesmoke;
+    font-family: monospace;
+    border: 1px solid peru;
+    background-color: #2f2f2f;
+}
+button:hover, textarea:hover {
+    color: white;
+    background-color: #3a3838;
+}
+button:active, textarea:active {
+    color: palegoldenrod;
+    background-color: #444444;
+}
+a {
+    top: 15px;
+    position: relative;
+    font-family: monospace;
+    color: palegoldenrod;
+    text-decoration: none;
+}
+a:hover {
+    color: gold;
+}
